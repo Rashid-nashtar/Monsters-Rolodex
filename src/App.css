@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.App .header {
+  font-family: "Bigelow Rules", cursive;
+  font-size: 94px;
+  color: white;
+}
+
+.copy {
+  margin: 50px auto;
+  width: 0;
+  color: #ddd;
+  font-weight: bold;
+  font-size: 40px;
+  white-space: nowrap;
+  border-right: 2px solid #ddd;
+  padding-right: 2px;
+  animation: anime 3s 2s steps(18) both, blink 0.5s infinite;
+  overflow: hidden;
+}
+
+@keyframes anime {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 370px;
+  }
+}
+@keyframes blink {
+  0% {
+    border-right-color: #ddd;
+  }
+  100% {
+    border-right-color: transparent;
+  }
+}

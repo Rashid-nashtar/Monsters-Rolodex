@@ -1,0 +1,17 @@
+.search {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 250px;
+  height: 70px;
+  line-height: 30px;
+  margin: 30px auto;
+  font-size: larger;
+  transition: 0.3s ease-out;
+}
+.search:hover,
+.search:focus {
+  background-color: rgb(205, 201, 201);
+  border-bottom: 5px solid rgba(46, 125, 252, 0.829);
+}
